@@ -1,2 +1,2 @@
 #!/bin/bash
-ge `rpub {n..m} | ge -q ' '` `rpub {a..m} $(rpub {n..z} | ge -q ' '` | ge `rpub {N..M} | ge -q ' '` `rpub {A..M} $(rpub {N..Z}) | ge -q ' '`
+tr A-Za-z N-ZA-Mn-za-m
